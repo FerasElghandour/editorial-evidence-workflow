@@ -1,0 +1,226 @@
+{
+  "assessment_note": "Synthetic fixture evidence",
+  "benefit_type": "important distinction",
+  "comprehensibility": {
+    "assessment": "Synthetic fixture evidence",
+    "opening_verified": false
+  },
+  "core_insight": "Synthetic fixture evidence",
+  "date_discovered": "2026-01-01",
+  "durable_question": "Synthetic fixture evidence",
+  "evidence": [
+    {
+      "id": "Synthetic fixture evidence",
+      "kind": "Synthetic fixture evidence",
+      "supports": "Synthetic fixture evidence",
+      "title": "Synthetic fixture evidence",
+      "url": "Synthetic fixture evidence"
+    },
+    {
+      "id": "Synthetic fixture evidence",
+      "kind": "Synthetic fixture evidence",
+      "published": "Synthetic fixture evidence",
+      "supports": "Synthetic fixture evidence",
+      "title": "Synthetic fixture evidence",
+      "url": "Synthetic fixture evidence"
+    }
+  ],
+  "evidence_needed": "Synthetic fixture evidence",
+  "feras_contribution": "Synthetic fixture evidence",
+  "feras_interest": {
+    "basis": "Synthetic fixture evidence",
+    "desire_to_continue": null,
+    "state": "Synthetic fixture evidence"
+  },
+  "gates": {
+    "account_promise": {
+      "reason": "Synthetic fixture evidence",
+      "status": "pass"
+    },
+    "identifiable_viewer": {
+      "reason": "Synthetic fixture evidence",
+      "status": "pass"
+    },
+    "non_obvious_payoff": {
+      "reason": "Synthetic fixture evidence",
+      "status": "pass"
+    },
+    "original_contribution": {
+      "reason": "Synthetic fixture evidence",
+      "status": "pass"
+    },
+    "responsible_production": {
+      "reason": "Synthetic fixture evidence",
+      "status": "pass"
+    },
+    "supportable_evidence": {
+      "reason": "Synthetic fixture evidence",
+      "status": "pass"
+    },
+    "useful_understanding": {
+      "reason": "Synthetic fixture evidence",
+      "status": "pass"
+    }
+  },
+  "id": "FWR-20260927-01",
+  "idea": "Synthetic fixture evidence",
+  "legacy_assessment": {
+    "gates": {
+      "account_promise": true,
+      "clear_benefit": true,
+      "identifiable_viewer": true,
+      "non_obvious_payoff": true,
+      "original_contribution": true,
+      "responsible_production": true,
+      "supportable_evidence": true
+    },
+    "preserved_in": "Synthetic fixture evidence",
+    "rubric_version": 1,
+    "score_max": 20,
+    "score_total": 20,
+    "scores": {
+      "benefit": 2,
+      "brand_fit": 2,
+      "builder_relevance": 2,
+      "curiosity": 2,
+      "evidence": 2,
+      "non_obviousness": 2,
+      "original_contribution": 2,
+      "production_feasibility": 2,
+      "save_potential": 2,
+      "send_potential": 2
+    },
+    "status": "Synthetic fixture evidence"
+  },
+  "memorability": {
+    "assessment": "Synthetic fixture evidence",
+    "recall_test": null
+  },
+  "origin_refs": [
+    {
+      "idea_id": "FWR-20260927-01",
+      "path": "Synthetic fixture evidence",
+      "type": "Synthetic fixture evidence"
+    }
+  ],
+  "originality_test": {
+    "feras_adds": "Synthetic fixture evidence",
+    "source_provides": "Synthetic fixture evidence",
+    "verdict": "adds_substance"
+  },
+  "production_effort": {
+    "actual_minutes": null,
+    "estimate_minutes": null,
+    "notes": "Synthetic fixture evidence"
+  },
+  "published_url": "",
+  "rubric_version": 2,
+  "save_reason": "Synthetic fixture evidence",
+  "scores": {
+    "benefit": {
+      "evidence_refs": [
+        "Synthetic fixture evidence"
+      ],
+      "reason": "Synthetic fixture evidence",
+      "value": 2
+    },
+    "brand_fit": {
+      "evidence_refs": [
+        "Synthetic fixture evidence"
+      ],
+      "reason": "Synthetic fixture evidence",
+      "value": 2
+    },
+    "builder_relevance": {
+      "evidence_refs": [
+        "Synthetic fixture evidence"
+      ],
+      "reason": "Synthetic fixture evidence",
+      "value": 2
+    },
+    "curiosity": {
+      "evidence_refs": [
+        "Synthetic fixture evidence"
+      ],
+      "reason": "Synthetic fixture evidence",
+      "value": 1
+    },
+    "evidence": {
+      "evidence_refs": [
+        "Synthetic fixture evidence",
+        "Synthetic fixture evidence"
+      ],
+      "reason": "Synthetic fixture evidence",
+      "value": 2
+    },
+    "feras_interest": {
+      "evidence_refs": [],
+      "reason": "Synthetic fixture evidence",
+      "value": 0
+    },
+    "immediate_comprehensibility": {
+      "evidence_refs": [
+        "Synthetic fixture evidence"
+      ],
+      "reason": "Synthetic fixture evidence",
+      "value": 1
+    },
+    "memorability": {
+      "evidence_refs": [
+        "Synthetic fixture evidence"
+      ],
+      "reason": "Synthetic fixture evidence",
+      "value": 1
+    },
+    "non_obviousness": {
+      "evidence_refs": [
+        "Synthetic fixture evidence"
+      ],
+      "reason": "Synthetic fixture evidence",
+      "value": 2
+    },
+    "original_contribution": {
+      "evidence_refs": [
+        "Synthetic fixture evidence"
+      ],
+      "reason": "Synthetic fixture evidence",
+      "value": 1
+    },
+    "production_feasibility": {
+      "evidence_refs": [
+        "Synthetic fixture evidence"
+      ],
+      "reason": "Synthetic fixture evidence",
+      "value": 1
+    },
+    "save_potential": {
+      "evidence_refs": [
+        "Synthetic fixture evidence"
+      ],
+      "reason": "Synthetic fixture evidence",
+      "value": 1
+    },
+    "send_potential": {
+      "evidence_refs": [
+        "Synthetic fixture evidence"
+      ],
+      "reason": "Synthetic fixture evidence",
+      "value": 1
+    }
+  },
+  "send_reason": "Synthetic fixture evidence",
+  "source_creator_reel_ids": [
+    "Synthetic fixture evidence",
+    "Synthetic fixture evidence"
+  ],
+  "source_stream": "Creator Radar",
+  "specific_benefit": "Synthetic fixture evidence",
+  "status": "Qualified",
+  "target_viewer": "Synthetic fixture evidence",
+  "timely": true,
+  "revision": 1,
+  "score_total": 17,
+  "score_max": 26,
+  "assessed_dimensions": 13,
+  "performance_after_publishing": []
+}

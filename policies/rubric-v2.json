@@ -1,0 +1,97 @@
+{
+  "version": 2,
+  "dimensions": {
+    "builder_relevance": {
+      "0": "No identifiable builder relevance",
+      "1": "Broadly adjacent; audience or relevance ambiguous",
+      "2": "Specific builder and recognizable context are identified"
+    },
+    "benefit": {
+      "0": "No useful learning payoff",
+      "1": "Payoff plausible but vague or not yet demonstrated",
+      "2": "Specific useful understanding supported by a worked explanation, model or finding"
+    },
+    "curiosity": {
+      "0": "No meaningful information gap",
+      "1": "An interesting question but predictable or untested",
+      "2": "Concrete contradiction or knowledge gap with a substantiated resolution"
+    },
+    "non_obviousness": {
+      "0": "Familiar assertion without added learning",
+      "1": "Some nuance; novelty to intended viewer uncertain",
+      "2": "Specific counterintuitive distinction or finding supported by evidence"
+    },
+    "evidence": {
+      "0": "Claim unsupported, conflicted or missing",
+      "1": "Plausible mechanism or limited evidence; important boundary unresolved",
+      "2": "Primary evidence or a checked demonstration supports the precisely bounded claim"
+    },
+    "save_potential": {
+      "0": "Nothing identifiable to revisit",
+      "1": "Potential reference value; artifact not yet developed",
+      "2": "A complete useful reference artifact exists and its return use is specific; actual saves not required"
+    },
+    "send_potential": {
+      "0": "No specific recipient or reason",
+      "1": "Recipient plausible; why send now remains weak",
+      "2": "Concrete recipient, shared situation and clear social utility supported by the content; private send counts not required"
+    },
+    "brand_fit": {
+      "0": "Conflicts with account promise or identity",
+      "1": "Adjacent or generic; weak distinctive connection",
+      "2": "Directly connects the supplied expertise/lens to useful builder understanding"
+    },
+    "original_contribution": {
+      "0": "Paraphrase, duplicated example or no added substance",
+      "1": "A distinct addition is proposed but not developed",
+      "2": "A substantive original synthesis, model, demonstration or different evidence is actually developed"
+    },
+    "production_feasibility": {
+      "0": "Unavailable assets, unsupported claims or excessive unresolved effort",
+      "1": "Production approach plausible; important effort/assets not validated",
+      "2": "Required assets, explanation and realistic effort are established"
+    },
+    "feras_interest": {
+      "0": "Missing idea-specific interest evidence or explicit low interest; distinguish in notes",
+      "1": "Plausible from declared interests or tentative positive feedback",
+      "2": "Feras supplied the idea, explicitly wants to pursue it, or repeatedly demonstrates sustained interest"
+    },
+    "immediate_comprehensibility": {
+      "0": "Builder cannot tell why it matters without specialist context",
+      "1": "Relevance can be understood with explanation; opening not verified",
+      "2": "A concrete plain-language opening proposition makes relevance apparent without specialist prerequisites"
+    },
+    "memorability": {
+      "0": "No distinct idea or recall anchor",
+      "1": "Potential memorable idea; delivery/reference not yet established",
+      "2": "A distinctive completed model, demonstration or discovery gives a reconstructable takeaway; recall evidence strengthens the score"
+    }
+  },
+  "maximum": 26,
+  "general_rule": {
+    "0": "Weak, missing or failed; record which.",
+    "1": "Plausible or mixed.",
+    "2": "Strong and specifically evidenced, not merely theoretically possible.",
+    "null": "Not yet assessed; no total until all dimensions assessed."
+  },
+  "evidence_for_twos": "Every 2 requires specific evidence references and a rationale. A source URL alone does not establish relevance or comprehension.",
+  "no_score_threshold_for_qualification": true,
+  "no_automatic_score_sort_for_queue": true,
+  "calibration_review": "Review each 2 and concentration at the top of the scale. Investigate bunching; do not impose quotas or artificially reduce scores for variety. Preserve scores and rationales by version.",
+  "interest_unknown_is_not_disinterest": true,
+  "hard_gates": [
+    "identifiable_viewer",
+    "useful_understanding",
+    "non_obvious_payoff",
+    "supportable_evidence",
+    "original_contribution",
+    "account_promise",
+    "responsible_production"
+  ],
+  "gate_states": [
+    "pass",
+    "pending",
+    "fail"
+  ],
+  "value_test": "Useful understanding about building; no immediate decision or action required."
+}
