@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="490" viewBox="0 0 500 490" role="img" aria-labelledby="title desc">
+<title id="title">Implementation mechanism</title>
+<desc id="desc">Proposed idea and supporting evidence → Seven required evidence gates → Score thirteen quality dimensions → Gate overrides aggregate score → Versioned SQLite record and append-only audit</desc>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7" fill="none" stroke="#73677e" stroke-width="1.2"/></marker></defs>
+<rect width="500" height="490" rx="14" fill="#f7f3ed"/>
+<text x="24" y="31" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4" fill="#6e5d77">HOW IT WORKS</text>
+<rect x="24" y="48" width="452" height="66" rx="9" fill="#ffffff" stroke="#ded6df"/>
+<circle cx="49" cy="81" r="14" fill="#504058"/>
+<text x="49" y="85" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#ffffff">01</text>
+<text x="77" y="87" font-family="Arial,sans-serif" font-size="17" fill="#302638">Proposed idea and supporting evidence</text>
+<path d="M250 115V129" fill="none" stroke="#73677e" stroke-width="1.2" marker-end="url(#arrow)"/>
+<rect x="24" y="134" width="452" height="66" rx="9" fill="#ffffff" stroke="#ded6df"/>
+<circle cx="49" cy="167" r="14" fill="#504058"/>
+<text x="49" y="171" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#ffffff">02</text>
+<text x="77" y="173" font-family="Arial,sans-serif" font-size="17" fill="#302638">Seven required evidence gates</text>
+<path d="M250 201V215" fill="none" stroke="#73677e" stroke-width="1.2" marker-end="url(#arrow)"/>
+<rect x="24" y="220" width="452" height="66" rx="9" fill="#ffffff" stroke="#ded6df"/>
+<circle cx="49" cy="253" r="14" fill="#504058"/>
+<text x="49" y="257" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#ffffff">03</text>
+<text x="77" y="259" font-family="Arial,sans-serif" font-size="17" fill="#302638">Score thirteen quality dimensions</text>
+<path d="M250 287V301" fill="none" stroke="#73677e" stroke-width="1.2" marker-end="url(#arrow)"/>
+<rect x="24" y="306" width="452" height="66" rx="9" fill="#ffffff" stroke="#ded6df"/>
+<circle cx="49" cy="339" r="14" fill="#504058"/>
+<text x="49" y="343" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#ffffff">04</text>
+<text x="77" y="345" font-family="Arial,sans-serif" font-size="17" fill="#302638">Gate overrides aggregate score</text>
+<path d="M250 373V387" fill="none" stroke="#73677e" stroke-width="1.2" marker-end="url(#arrow)"/>
+<rect x="24" y="392" width="452" height="66" rx="9" fill="#ffffff" stroke="#ded6df"/>
+<circle cx="49" cy="425" r="14" fill="#d75c42"/>
+<text x="49" y="429" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="700" fill="#ffffff">05</text>
+<text x="77" y="420" font-family="Arial,sans-serif" font-size="17" fill="#302638">Versioned SQLite record and append-</text>
+<text x="77" y="442" font-family="Arial,sans-serif" font-size="17" fill="#302638">only audit</text>
+</svg>

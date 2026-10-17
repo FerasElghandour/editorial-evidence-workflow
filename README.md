@@ -8,12 +8,24 @@ Maintain a content-research queue without turning popularity scores, missing met
 
 A standard-library SQLite application with three source streams, seven qualification gates, thirteen scored dimensions, optimistic revisions, append-only history, preserved performance snapshots, and explicit editorial queue order. A companion calculator handles complete calendar windows and comparable-post baselines.
 
-```mermaid
-flowchart LR
- A[Research and original ideas] --> B[Evidence and originality gates]
- B --> C[Revisioned SQLite records]
- C --> D[Human editorial queue]
- D --> E[Immutable performance snapshots]
+![Implementation mechanism: Proposed idea and supporting evidence → Seven required evidence gates → Score thirteen quality dimensions → Gate overrides aggregate score → Versioned SQLite record and append-only audit](assets/mechanism.svg)
+
+## Try a small example
+
+A small offline fixture exercises the public implementation. It demonstrates the behavior shown below; it does not replace the historical dataset, benchmark or production validation.
+
+After the local setup below, run from the repository root:
+
+```sh
+python examples/quickstart.py
+```
+
+The [example source](examples/quickstart.py), [captured output](examples/expected-output.txt) and [execution record](examples/environment.json) keep this demonstration inspectable. Floating-point values may vary with library versions.
+
+Observed output from this run:
+
+```text
+{'id': 'FWR-20260927-01', 'status': 'Qualified', 'revision': 1, 'score_total': 17, 'audit': {'ok': True, 'errors': [], 'ideas': 1, 'streams': {'Creator Radar': 1, 'Feras Originals': 0, 'Current Research & Events': 0}, 'statuses': {'Raw': 0, 'Researching': 0, 'Qualified': 1, 'Production Queue': 0, 'Scripted': 0, 'Recorded': 0, 'Published': 0, 'Reviewed': 0, 'Reuse': 0, 'Expand': 0, 'Retire': 0}, 'production_queue_size': 0, 'performance_snapshots': 0}}
 ```
 
 ## Evidence and results
