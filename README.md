@@ -60,3 +60,7 @@ A sanitized synthetic input snapshot is available in `idea-engine/initial-v2-sna
 This manages review and evidence. It does not establish audience growth, content quality, platform causality, or autonomous publishing. Scores remain editorial judgments and are constrained by explicit evidence gates.
 
 [Validation record](VALIDATION.md) · [Inputs and applicable notices](DATA.md)
+
+## Reuse
+
+The original contributions listed in [LICENSING.md](LICENSING.md) are available under [MIT](LICENSE). This scoped grant preserves upstream notices and separate dataset, simulator, notebook and checkpoint terms.
