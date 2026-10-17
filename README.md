@@ -10,6 +10,15 @@ A standard-library SQLite application with three source streams, seven qualifica
 
 ![Implementation mechanism: Proposed idea and supporting evidence → Seven required evidence gates → Score thirteen quality dimensions → Gate overrides aggregate score → Versioned SQLite record and append-only audit](assets/mechanism.svg)
 
+
+
+## Reproduce and inspect
+
+The executable reproduction profile now records exact commands, input/source hashes, dependency versions, logs and pass/fail status. Its scope distinguishes behavior checks from full-data benchmarks.
+
+[Commands, artifacts and benchmark scope](BENCHMARKS.md) · [Versioned profiles](reproduction.json)
+
+
 ## Try a small example
 
 A small offline fixture exercises the public implementation. It demonstrates the behavior shown below; it does not replace the historical dataset, benchmark or production validation.
